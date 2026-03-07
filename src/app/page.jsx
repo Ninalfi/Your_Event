@@ -1,5 +1,5 @@
-import EventCard from "@/components/events/EventCard";
-import Events from "@/components/events/Events";
+import EventCard from "@/app/events/EventCard";
+import Events from "@/app/events/Events";
 import Banner from "@/components/home/Banner";
 import FeaturesSection from "@/components/home/FeaturesSection";
 import Hero from "@/components/home/Hero";
@@ -20,7 +20,7 @@ export default function Home() {
           <TestimonialsSection></TestimonialsSection>
       </section>
      <section>
-      <Events></Events>
+      
      </section>
     </div>
   );

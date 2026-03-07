@@ -6,7 +6,6 @@ import EventCardSkeleton from "./EventCardSkeleton";
 import EventCard from "./EventCard";
 import events from "@/app/data/events.json";
 
-
 const Events = () => {
   const [loading, setLoading] = useState(true);
   const [searchText, setSearchText] = useState("");
@@ -26,26 +25,30 @@ const Events = () => {
   }, []);
 
   const filteredEvents = useMemo(() => {
-    return events.filter((event) => {
-      const matchesSearch =
-        event.title.toLowerCase().includes(searchText.toLowerCase()) ||
-        event.shortDescription.toLowerCase().includes(searchText.toLowerCase()) ||
-        event.location.toLowerCase().includes(searchText.toLowerCase());
+    return events
+      .map((event, originalIndex) => ({
+        ...event,
+        originalIndex,
+      }))
+      .filter((event) => {
+        const matchesSearch =
+          event.title.toLowerCase().includes(searchText.toLowerCase()) ||
+          event.shortDescription.toLowerCase().includes(searchText.toLowerCase()) ||
+          event.location.toLowerCase().includes(searchText.toLowerCase());
 
-      const matchesCategory =
-        category === "All" || event.category === category;
+        const matchesCategory =
+          category === "All" || event.category === category;
 
-      return matchesSearch && matchesCategory;
-    });
+        return matchesSearch && matchesCategory;
+      });
   }, [searchText, category]);
 
   return (
     <section className="min-h-screen bg-base-100 py-12 md:py-16">
       <div className="mx-auto max-w-7xl px-4">
-        {/* Page Header */}
         <div className="mb-10">
           <h1 className="text-3xl font-bold text-base-content md:text-4xl">
-            Events
+            All <span className="text-primary">Upcoming</span> Events
           </h1>
           <p className="mt-3 max-w-2xl text-sm leading-7 text-base-content/70 md:text-base">
             Explore conferences, workshops, meetups, expos, and networking events.
@@ -54,7 +57,6 @@ const Events = () => {
           </p>
         </div>
 
-        {/* Search + Filter */}
         <div className="mb-10 grid gap-4 md:grid-cols-3">
           <label className="input input-bordered flex items-center gap-3 md:col-span-2">
             <FaSearch className="text-base-content/60" />
@@ -83,7 +85,6 @@ const Events = () => {
           </label>
         </div>
 
-        {/* Results Count */}
         {!loading && (
           <div className="mb-6">
             <p className="text-sm text-base-content/60">
@@ -93,18 +94,20 @@ const Events = () => {
           </div>
         )}
 
-        {/* Cards Grid */}
         <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
           {loading
             ? Array.from({ length: 6 }).map((_, index) => (
                 <EventCardSkeleton key={index} />
               ))
-            : filteredEvents.map((event, index) => (
-                <EventCard key={index} event={event} index={index} />
+            : filteredEvents.map((event) => (
+                <EventCard
+                  key={event.originalIndex}
+                  event={event}
+                  index={event.originalIndex}
+                />
               ))}
         </div>
 
-        {/* Empty State */}
         {!loading && filteredEvents.length === 0 && (
           <div className="mt-12 rounded-2xl border border-base-200 bg-base-200/40 p-10 text-center">
             <h3 className="text-xl font-semibold">No events found</h3>

@@ -14,8 +14,11 @@ const Navbar = () => {
         <li>
         <NavLink href={"/events"}>Events</NavLink>
     </li>
+    <li>
+  <NavLink href="/my-bookings">My Bookings</NavLink>
+</li>
         <li>
-        <NavLink href={"/about"}>About</NavLink>
+        <NavLink href={"/blogs"}>Blogs</NavLink>
     </li>
         <li>
         <NavLink href={"/contact"}>Contact</NavLink>
