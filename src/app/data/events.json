@@ -1,0 +1,430 @@
+[
+  {
+    "title": "Tech Innovators Summit",
+    "shortDescription": "A conference focused on AI, web, and startup innovation.",
+    "fullDescription": "Tech Innovators Summit brings together developers, designers, and founders to explore the future of technology.",
+    "date": "2026-04-12",
+    "location": "Tokyo International Forum",
+    "category": "Conference",
+    "price": "$49",
+    "image": "https://images.unsplash.com/photo-1511578314322-379afb476865"
+  },
+  {
+    "title": "Frontend Developer Workshop",
+    "shortDescription": "Hands-on React and Next.js workshop.",
+    "fullDescription": "This workshop teaches modern frontend architecture using React, Next.js, and Tailwind CSS.",
+    "date": "2026-04-20",
+    "location": "Shibuya Tech Center",
+    "category": "Workshop",
+    "price": "$25",
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+  },
+  {
+    "title": "Startup Networking Night",
+    "shortDescription": "Meet entrepreneurs and startup founders.",
+    "fullDescription": "An evening networking event connecting startup founders, investors, and developers.",
+    "date": "2026-05-01",
+    "location": "Osaka Startup Hub",
+    "category": "Networking",
+    "price": "Free",
+    "image": "https://images.unsplash.com/photo-1515169067868-5387ec356754"
+  },
+  {
+    "title": "Design Systems Masterclass",
+    "shortDescription": "Learn scalable UI design systems.",
+    "fullDescription": "Master typography, spacing, and reusable component design systems.",
+    "date": "2026-05-08",
+    "location": "Kyoto Design Hall",
+    "category": "Masterclass",
+    "price": "$39",
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7"
+  },
+  {
+    "title": "AI Product Expo",
+    "shortDescription": "Explore new AI-powered products.",
+    "fullDescription": "A product showcase featuring startups building AI tools and platforms.",
+    "date": "2026-05-14",
+    "location": "Nagoya Expo Arena",
+    "category": "Expo",
+    "price": "$59",
+    "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678"
+  },
+
+  {
+    "title": "Cloud Computing Bootcamp",
+    "shortDescription": "Learn AWS and cloud architecture.",
+    "fullDescription": "A practical bootcamp covering cloud deployment and serverless architecture.",
+    "date": "2026-05-18",
+    "location": "Tokyo Cloud Lab",
+    "category": "Bootcamp",
+    "price": "$35",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa"
+  },
+  {
+    "title": "Cybersecurity Awareness Conference",
+    "shortDescription": "Learn about modern cyber threats.",
+    "fullDescription": "Experts discuss cybersecurity strategies, threats, and digital safety.",
+    "date": "2026-05-22",
+    "location": "Tokyo Security Center",
+    "category": "Conference",
+    "price": "$45",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b"
+  },
+  {
+    "title": "UI/UX Design Meetup",
+    "shortDescription": "Meet designers and share ideas.",
+    "fullDescription": "A casual meetup for designers to share experiences and portfolio tips.",
+    "date": "2026-05-25",
+    "location": "Shinjuku Creative Space",
+    "category": "Meetup",
+    "price": "Free",
+    "image": "https://images.unsplash.com/photo-1559028012-481c04fa702d"
+  },
+  {
+    "title": "Game Development Workshop",
+    "shortDescription": "Learn Unity and game design basics.",
+    "fullDescription": "A beginner-friendly workshop on building games using Unity.",
+    "date": "2026-05-28",
+    "location": "Tokyo Game Lab",
+    "category": "Workshop",
+    "price": "$30",
+    "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420"
+  },
+  {
+    "title": "Blockchain Innovation Forum",
+    "shortDescription": "Explore blockchain technologies.",
+    "fullDescription": "Discuss decentralized systems and future financial technology.",
+    "date": "2026-06-02",
+    "location": "Osaka Blockchain Center",
+    "category": "Forum",
+    "price": "$40",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0"
+  },
+
+  {
+    "title": "Digital Marketing Seminar",
+    "shortDescription": "Learn modern marketing strategies.",
+    "fullDescription": "SEO, social media strategy, and digital growth techniques.",
+    "date": "2026-06-05",
+    "location": "Tokyo Business Hall",
+    "category": "Seminar",
+    "price": "$20",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0"
+  },
+  {
+    "title": "Photography Masterclass",
+    "shortDescription": "Improve photography techniques.",
+    "fullDescription": "Learn composition, lighting, and editing from professionals.",
+    "date": "2026-06-08",
+    "location": "Kyoto Art Center",
+    "category": "Masterclass",
+    "price": "$25",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee"
+  },
+  {
+    "title": "Startup Pitch Competition",
+    "shortDescription": "Startups pitch innovative ideas.",
+    "fullDescription": "Entrepreneurs present their startup ideas to investors.",
+    "date": "2026-06-10",
+    "location": "Tokyo Innovation Hub",
+    "category": "Competition",
+    "price": "Free",
+    "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "title": "Artificial Intelligence Symposium",
+    "shortDescription": "Academic discussions on AI research.",
+    "fullDescription": "Researchers present new advancements in artificial intelligence.",
+    "date": "2026-06-14",
+    "location": "Tokyo University",
+    "category": "Symposium",
+    "price": "$50",
+    "image": "https://images.unsplash.com/photo-1677442135133-4b4f2f6c06c2"
+  },
+  {
+    "title": "Mobile App Development Bootcamp",
+    "shortDescription": "Build apps using Flutter.",
+    "fullDescription": "Learn cross-platform mobile development using Flutter.",
+    "date": "2026-06-18",
+    "location": "Tokyo Coding Academy",
+    "category": "Bootcamp",
+    "price": "$35",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475"
+  },
+
+  {
+    "title": "Robotics Innovation Expo",
+    "shortDescription": "Discover modern robotics technologies.",
+    "fullDescription": "Robotics companies present their latest innovations.",
+    "date": "2026-06-21",
+    "location": "Osaka Expo Hall",
+    "category": "Expo",
+    "price": "$45",
+    "image": "https://images.unsplash.com/photo-1581090700227-4c4b6b4d4c11"
+  },
+  {
+    "title": "Creative Coding Workshop",
+    "shortDescription": "Coding for digital art and visuals.",
+    "fullDescription": "Explore creative coding with JavaScript and WebGL.",
+    "date": "2026-06-24",
+    "location": "Tokyo Creative Lab",
+    "category": "Workshop",
+    "price": "$30",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+  },
+  {
+    "title": "Leadership & Innovation Forum",
+    "shortDescription": "Leadership lessons from founders.",
+    "fullDescription": "Industry leaders share their leadership journeys.",
+    "date": "2026-06-27",
+    "location": "Yokohama Business Center",
+    "category": "Forum",
+    "price": "$35",
+    "image": "https://images.unsplash.com/photo-1556761175-129418cb2dfe"
+  },
+  {
+    "title": "Tech Career Fair",
+    "shortDescription": "Meet recruiters and companies.",
+    "fullDescription": "Students and professionals can connect with tech companies.",
+    "date": "2026-07-02",
+    "location": "Tokyo Career Expo",
+    "category": "Career",
+    "price": "Free",
+    "image": "https://images.unsplash.com/photo-1561484930-998b6a7b22e8"
+  },
+  {
+    "title": "Startup Founders Meetup",
+    "shortDescription": "Discuss startup growth strategies.",
+    "fullDescription": "Networking and panel discussions with startup founders.",
+    "date": "2026-07-05",
+    "location": "Osaka Innovation Hub",
+    "category": "Meetup",
+    "price": "$15",
+    "image": "https://images.unsplash.com/photo-1503428593586-e225b39bddfe"
+  },
+
+  {
+    "title": "Future of Web Development",
+    "shortDescription": "Discuss modern web technologies.",
+    "fullDescription": "A conference on the evolution of web development tools and frameworks.",
+    "date": "2026-07-08",
+    "location": "Tokyo Tech Hall",
+    "category": "Conference",
+    "price": "$40",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+  },
+  {
+    "title": "Open Source Contributors Meetup",
+    "shortDescription": "Collaborate with open source developers.",
+    "fullDescription": "Developers discuss contributions and collaboration in open source projects.",
+    "date": "2026-07-10",
+    "location": "Tokyo Dev Space",
+    "category": "Meetup",
+    "price": "Free",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+  },
+  {
+    "title": "AI Startup Pitch Day",
+    "shortDescription": "AI startups present innovative solutions.",
+    "fullDescription": "A pitching event for startups focused on artificial intelligence.",
+    "date": "2026-07-12",
+    "location": "Tokyo Startup Arena",
+    "category": "Competition",
+    "price": "$20",
+    "image": "https://images.unsplash.com/photo-1677442135133-4b4f2f6c06c2"
+  },
+  {
+    "title": "Virtual Reality Experience Expo",
+    "shortDescription": "Explore VR technology and games.",
+    "fullDescription": "Experience new virtual reality technologies and innovations.",
+    "date": "2026-07-15",
+    "location": "Tokyo VR Center",
+    "category": "Expo",
+    "price": "$30",
+    "image": "https://images.unsplash.com/photo-1581092334531-1c9c52a7f6f0"
+  },
+  {
+    "title": "Machine Learning Bootcamp",
+    "shortDescription": "Learn ML concepts with Python.",
+    "fullDescription": "A bootcamp covering machine learning models and data science tools.",
+    "date": "2026-07-18",
+    "location": "Tokyo Data Lab",
+    "category": "Bootcamp",
+    "price": "$50",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+  },
+
+  {
+    "title": "Women in Tech Forum",
+    "shortDescription": "Celebrating women leaders in technology.",
+    "fullDescription": "An inspiring forum highlighting women innovators in tech.",
+    "date": "2026-07-21",
+    "location": "Yokohama Conference Center",
+    "category": "Forum",
+    "price": "$20",
+    "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87"
+  },
+  {
+    "title": "Data Science Summit",
+    "shortDescription": "Big data and analytics conference.",
+    "fullDescription": "Experts discuss data-driven innovation and analytics tools.",
+    "date": "2026-07-25",
+    "location": "Tokyo Analytics Center",
+    "category": "Conference",
+    "price": "$45",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+  },
+  {
+    "title": "Creative Tech Meetup",
+    "shortDescription": "Artists and developers collaborate.",
+    "fullDescription": "An intersection of art, design, and programming.",
+    "date": "2026-07-28",
+    "location": "Kyoto Creative Hub",
+    "category": "Meetup",
+    "price": "Free",
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7"
+  },
+
+  {
+    "title": "Product Management Workshop",
+    "shortDescription": "Learn product strategy and roadmap planning.",
+    "fullDescription": "A workshop for aspiring product managers.",
+    "date": "2026-08-02",
+    "location": "Tokyo Business School",
+    "category": "Workshop",
+    "price": "$30",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0"
+  },
+  {
+    "title": "DevOps Automation Seminar",
+    "shortDescription": "CI/CD pipelines and DevOps practices.",
+    "fullDescription": "Learn how to automate deployment pipelines.",
+    "date": "2026-08-05",
+    "location": "Tokyo DevOps Lab",
+    "category": "Seminar",
+    "price": "$35",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d"
+  },
+  {
+    "title": "Next.js Developer Meetup",
+    "shortDescription": "Discuss Next.js and modern frameworks.",
+    "fullDescription": "A meetup for frontend developers using Next.js.",
+    "date": "2026-08-08",
+    "location": "Tokyo Dev Hub",
+    "category": "Meetup",
+    "price": "Free",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+  },
+  {
+    "title": "FinTech Innovation Forum",
+    "shortDescription": "Explore finance technology innovations.",
+    "fullDescription": "A forum discussing the future of financial technology.",
+    "date": "2026-08-10",
+    "location": "Tokyo Finance Center",
+    "category": "Forum",
+    "price": "$40",
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d"
+  },
+  {
+    "title": "Startup Growth Workshop",
+    "shortDescription": "Strategies to scale startups.",
+    "fullDescription": "Learn growth hacking and startup scaling techniques.",
+    "date": "2026-08-13",
+    "location": "Osaka Startup Hub",
+    "category": "Workshop",
+    "price": "$25",
+    "image": "https://images.unsplash.com/photo-1503428593586-e225b39bddfe"
+  },
+
+  {
+    "title": "Tech Leadership Summit",
+    "shortDescription": "Leadership lessons for tech professionals.",
+    "fullDescription": "Senior engineers and CTOs discuss leadership in tech.",
+    "date": "2026-08-15",
+    "location": "Tokyo Executive Center",
+    "category": "Conference",
+    "price": "$60",
+    "image": "https://images.unsplash.com/photo-1556761175-129418cb2dfe"
+  },
+  {
+    "title": "Open Source Hackathon",
+    "shortDescription": "Build projects collaboratively.",
+    "fullDescription": "Develop open-source tools with other developers.",
+    "date": "2026-08-18",
+    "location": "Tokyo Hack Lab",
+    "category": "Hackathon",
+    "price": "Free",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475"
+  },
+  {
+    "title": "AI Ethics Panel",
+    "shortDescription": "Discussion about AI responsibility.",
+    "fullDescription": "Experts discuss ethical concerns around artificial intelligence.",
+    "date": "2026-08-20",
+    "location": "Tokyo Policy Center",
+    "category": "Panel",
+    "price": "$20",
+    "image": "https://images.unsplash.com/photo-1677442135133-4b4f2f6c06c2"
+  },
+  {
+    "title": "Creative Startup Expo",
+    "shortDescription": "Showcase of creative startups.",
+    "fullDescription": "Entrepreneurs present creative and design-focused startups.",
+    "date": "2026-08-23",
+    "location": "Kyoto Startup Arena",
+    "category": "Expo",
+    "price": "$30",
+    "image": "https://images.unsplash.com/photo-1540575467063-178a50c2df87"
+  },
+  {
+    "title": "Global Tech Forum",
+    "shortDescription": "International tech discussions.",
+    "fullDescription": "A forum bringing global tech leaders together.",
+    "date": "2026-08-26",
+    "location": "Tokyo Global Hall",
+    "category": "Forum",
+    "price": "$55",
+    "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678"
+  },
+
+  {
+    "title": "Future of AI Conference",
+    "shortDescription": "Exploring AI research breakthroughs.",
+    "fullDescription": "Researchers and engineers present the latest AI developments.",
+    "date": "2026-08-28",
+    "location": "Tokyo AI Center",
+    "category": "Conference",
+    "price": "$70",
+    "image": "https://images.unsplash.com/photo-1677442135133-4b4f2f6c06c2"
+  },
+  {
+    "title": "Creative Coding Festival",
+    "shortDescription": "Celebrate coding and art.",
+    "fullDescription": "Artists and developers showcase creative coding projects.",
+    "date": "2026-09-01",
+    "location": "Kyoto Digital Arts Hall",
+    "category": "Festival",
+    "price": "$20",
+    "image": "https://images.unsplash.com/photo-1492724441997-5dc865305da7"
+  },
+  {
+    "title": "Startup Investment Summit",
+    "shortDescription": "Connect startups with investors.",
+    "fullDescription": "Pitch sessions and networking with venture capitalists.",
+    "date": "2026-09-05",
+    "location": "Tokyo Investment Center",
+    "category": "Summit",
+    "price": "$60",
+    "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72"
+  },
+  {
+    "title": "Future Web Conference",
+    "shortDescription": "Discuss the future of web technologies.",
+    "fullDescription": "A conference exploring Web3, AI web tools, and future frameworks.",
+    "date": "2026-09-10",
+    "location": "Tokyo Tech Forum",
+    "category": "Conference",
+    "price": "$50",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+  }
+]
