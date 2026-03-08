@@ -52,6 +52,9 @@ const Navbar = () => {
     <Link href={"/login"}>
     <button className='btn btn-primary btn-outline'>Login</button>
     </Link>
+        <Link href={"/register"}>
+    <button className='btn btn-primary btn-outline'>Register</button>
+    </Link>
   </div>
 </div>
     );
